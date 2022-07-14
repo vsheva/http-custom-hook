@@ -4,7 +4,6 @@ import TaskForm from './TaskForm';
 import useHttp from '../../hooks/use-http';
 
 const NewTask = props => {
-  console.log(useHttp());
 
   const { error, isLoading, sendRequest: sendTaskRequest } = useHttp();
 
